@@ -4,8 +4,8 @@ if(isset($_POST['reg_emp']))
 {
 	$fname = mysqli_real_escape_string($db, $_POST['emp_fname']);
 	$lname = mysqli_real_escape_string($db, $_POST['emp_lname']);
-	$email = mysqli_real_escape_string($db, $_POST['email_id']);
-	$mobile = mysqli_real_escape_string($db, $_POST['emp_mobile']);
+	$email = mysqli_real_escape_string($db, $_POST['email']);
+	$mobile = mysqli_real_escape_string($db, $_POST['mobile']);
 	
 			$query = "INSERT INTO emp_info(fname,lname,email_id,emp_mobile) 
 					  VALUES('$fname','$lname','$email','$mobile')";
