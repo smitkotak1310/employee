@@ -7,19 +7,19 @@
 </head>
 <body>
 	<div class="header">
-		<h2>Employee Information Form</h2>
+		<h2>Student Registration Form</h2>
 	</div>
 	
 	<form method="post" >
 
 		<div class="input-group">
-			<label>Emp FName</label>
-			<input type="text" name="emp_fname" placeholder="Enter Emp First Name" required>
+			<label>First Name</label>
+			<input type="text" name="emp_fname" placeholder="Enter First Name" required>
 		</div>
 		<div class="input-group">
 
-			<label>Emp LName</label>
-			<input type="text" name="emp_lname" placeholder="Enter Emp Last Name" required>
+			<label>Last Name</label>
+			<input type="text" name="emp_lname" placeholder="Enter Last Name" required>
 		</div>
 		<div class="input-group">
 			<label>Email</label>
@@ -27,7 +27,7 @@
 		</div>
 		<div class="input-group">
 			<label>Mobile Number</label>
-			<input type="text" placeholder="Enter Mobile NUmber" name="emp_mobile" required>
+			<input type="text" placeholder="Enter Mobile Number" name="emp_mobile" required>
 		</div>	
 		<div class="input-group">
 			<button type="submit" class="btn" name="reg_emp">Register</button>
